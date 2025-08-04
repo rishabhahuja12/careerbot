@@ -31,9 +31,13 @@ This repository contains **no code**. It documents how the AI agent was created 
 
 ## 🖼️ Screenshots
 
-| Resources List | Deployed Status | Chatbot Preview | Chatbot Result |
-|:--------------:|:---------------:|:---------------:|:--------------:|
-| ![Resources](screenshots/resources_list.png) | ![Deployed](screenshots/deployed_status.png) | ![Preview](screenshots/chatbot_preview.png) | ![Result](screenshots/chatbot_result.png) |
+| Chat Example | Agent Instructions | Tools Setup | API & Deployment |
+|:------------:|:------------------:|:-----------:|:----------------:|
+| ![Chat](screenshots/chat_example_ai_guidance.png) <br> *CareerBot responding to a real query about AI careers* | ![Instructions](screenshots/agent_instructions_common.png) <br> *Core instruction rules for grounded, helpful responses* | ![Tools](screenshots/tools_configured.png) <br> *Tools like Google, Wikipedia, and Python enabled* | ![API](screenshots/api_reference_ibm.png) <br> *Public/Private endpoints for inferencing and deployment* |
+
+| Persona Setup | Welcome Panel | IBM Cloud Resources |
+|:-------------:|:-------------:|:-------------------:|
+| ![Persona](screenshots/agent_instructions_persona.png) <br> *Agent’s persona defined as a friendly career assistant* | ![Welcome](screenshots/welcome_and_start_questions.png) <br> *Sample start questions and greeting in the UI* | ![Resources](screenshots/ibm_cloud_resources_used.png) <br> *IBM Cloud services like watsonx.ai, Storage used* |
 
 Other visuals:
 - Agent Instructions
