@@ -1,6 +1,6 @@
 # CareerBot: Agentic AI Career Counseling for IBM Edunet Internship
 
-CareerBot is an agent-driven AI chatbot that provides personalized career guidance for Indian students, leveraging IBM Cloud Lite, watsonx.ai, and the Granite model. Built as part of the IBM Edunet Internship, this project demonstrates agentic orchestration, prompt engineering, and real-world deployment on IBM resources.
+CareerBot is an intelligent agent built using IBM Watsonx.ai and Granite LLM, designed to offer personalized, document-grounded career guidance for students across India. Created as part of the IBM SkillsBuild for Academia Internship 2025, the project demonstrates agentic orchestration, vector-based retrieval (RAG), and real-world deployment using IBM Cloud.
 
 ---
 
@@ -11,6 +11,14 @@ CareerBot is an agent-driven AI chatbot that provides personalized career guidan
 - **IBM Cloud Deployment:** Fully deployed on IBM Cloud Lite.
 - **Real Student Use Case:** Designed for Indian students facing career confusion.
 - **Interactive Chatbot:** Live preview and results.
+
+---
+
+## 🌟 Key Features & WOW Factors
+- **Vector Index + RAG:** Fetches accurate answers from uploaded learning material (.txt) using Retrieval-Augmented Generation.
+- **Custom Prompting:** Designed a prompt to restrict hallucination and tailor answers to Indian academic and career contexts.
+- **Start Questions Configured:** Four smart starter queries to onboard users quickly.
+- **Tool Use:** Optimized for semantic answers, polite redirection on out-of-scope questions.
 
 ---
 
@@ -86,11 +94,14 @@ Final IBM Edunet submission:
 - [IBM_EduNet_Presentation.pdf](presentation/IBM_EduNet_Presentation.pdf)
 
 ---
+## 🧠 Technologies Used
 
-## 🤝 Contributing
-
-PRs and feedback welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
+- IBM Watsonx.ai Studio
+- IBM Granite LLM
+- IBM Cloud Object Storage
+- Vector Index (for RAG)
+- Prompt Engineering (system & user prompts)
+- 
 ---
 
 ## 📄 License
@@ -101,4 +112,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
 ## 🙋 Contact
 
-Questions? Reach out at [GitHub Issues](https://github.com/rishabhahuja12/careerbot/issues) or email rishabhahuja12@gmail.com.
+Questions? Reach out at [GitHub Issues](https://github.com/rishabhahuja12/careerbot/issues) or email rishabhahuja961@gmail.com.
