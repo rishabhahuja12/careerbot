@@ -1,24 +1,68 @@
-# CareerBot: Agentic AI Career Counseling for IBM Edunet Internship
+# CareerBot: Agentic AI Career Counseling for IBM SkillsBuild Internship 2025
 
-CareerBot is an intelligent agent built using IBM Watsonx.ai and Granite LLM, designed to offer personalized, document-grounded career guidance for students across India. Created as part of the IBM SkillsBuild for Academia Internship 2025, the project demonstrates agentic orchestration, vector-based retrieval (RAG), and real-world deployment using IBM Cloud.
+**CareerBot** is a smart, document-powered AI agent designed to provide personalized career counseling to Indian students. Built using **IBM Watsonx.ai**, **Granite LLM**, and **Vector Indexing (RAG)**, it answers career-related queries grounded in curated documents uploaded by the developer. 
+
+This project was developed as part of the **IBM SkillsBuild for Academia Internship 2025**, showcasing prompt engineering, agentic orchestration, and no-code deployment on IBM Cloud.
 
 ---
 
-## 🏆 Features & Wow Factors
+## 🧩 What This Repository Contains
 
-- **Agentic AI:** Multi-step reasoning, tool use, and personalized guidance for career selection.
-- **Granite Model:** Uses IBM’s flagship LLM via watsonx.ai.
-- **IBM Cloud Deployment:** Fully deployed on IBM Cloud Lite.
-- **Real Student Use Case:** Designed for Indian students facing career confusion.
-- **Interactive Chatbot:** Live preview and results.
+This repository contains **no code**. It documents how the AI agent was created using IBM tools. Inside, you'll find:
+
+- 🧠 Explanation of the project and technologies used  
+- 🖼️ Screenshots of the AI agent in action  
+- 📝 Key files like agent instructions and learning blocks  
+- 📊 Final project presentation  
+- ✅ Quick start questions used for user onboarding
 
 ---
 
 ## 🌟 Key Features & WOW Factors
-- **Vector Index + RAG:** Fetches accurate answers from uploaded learning material (.txt) using Retrieval-Augmented Generation.
-- **Custom Prompting:** Designed a prompt to restrict hallucination and tailor answers to Indian academic and career contexts.
-- **Start Questions Configured:** Four smart starter queries to onboard users quickly.
-- **Tool Use:** Optimized for semantic answers, polite redirection on out-of-scope questions.
+
+- **Document-Based Q&A:** Trained with real learning documents to give grounded, relevant answers
+- **Granite LLM + Watsonx.ai:** Powered by IBM’s top-tier large language model
+- **Vector Indexing (RAG):** Answers are pulled directly from curated content using Retrieval-Augmented Generation
+- **Indian Student Focused:** Tailored for Indian education systems, job markets, and career paths
+- **Polite Redirection:** Handles irrelevant queries gracefully
+- **Built Without Writing Code:** Created entirely using IBM Watsonx Studio tools
+
+---
+
+## 🖼️ Screenshots
+
+| Resources List | Deployed Status | Chatbot Preview | Chatbot Result |
+|:--------------:|:---------------:|:---------------:|:--------------:|
+| ![Resources](screenshots/resources_list.png) | ![Deployed](screenshots/deployed_status.png) | ![Preview](screenshots/chatbot_preview.png) | ![Result](screenshots/chatbot_result.png) |
+
+Other visuals:
+- Agent Instructions
+- Testing Tools
+- Quick Start Questions
+- Learning Resources
+
+---
+
+## 📑 How It Works
+
+1. AI Agent is created in **IBM Watsonx.ai Studio**
+2. Custom **instructions and guardrails** are set to limit hallucination
+3. Multiple `.txt` learning files are uploaded to the **Vector Index**
+4. Agent responds using **Granite LLM + RAG**, ensuring answers are factual and document-backed
+5. Students ask queries like:
+   - *"What career options are available for a PCM student?"*
+   - *"What skills are needed to be a Data Scientist?"*
+
+---
+
+## 🧠 Technologies Used
+
+- IBM Watsonx.ai Studio
+- IBM Granite Foundation Model (LLM)
+- Watsonx Vector Index (RAG)
+- Prompt Engineering (system & user prompts)
+- IBM Cloud Lite (free tier)
+- Screenshots and Text Files (for content grounding)
 
 ---
 
@@ -26,90 +70,45 @@ CareerBot is an intelligent agent built using IBM Watsonx.ai and Granite LLM, de
 
 ```
 careerbot/
-├── README.md
-├── docs/
-│   ├── user_guide.md
-│   ├── architecture.md
-│   └── faq.md
-├── prompts/
-│   └── agent_prompt.txt
-├── config/
-│   ├── agent_config.json
-│   └── .env.example
-├── screenshots/
-│   ├── resources_list.png
-│   ├── deployed_status.png
-│   ├── chatbot_preview.png
-│   ├── chatbot_result.png
-├── presentation/
-│   ├── IBM_EduNet_Presentation.pptx
-│   └── IBM_EduNet_Presentation.pdf
-├── .gitignore
+├── screenshots/ # Screenshots of the project
+├── prompts/ # Custom instructions given to the agent
+├── docs/ # User guide, FAQ, and system overview (optional)
+├── learning_blocks/ # Uploaded .txt files used for vector training
+├── presentation/ # Final PPT submission for IBM internship
+├── README.md # This file
 ├── LICENSE
 ```
 
 ---
 
-## 🚀 Quickstart
+## 📊 Project Presentation
 
-1. **Clone the repository:**
-   ```
-   git clone https://github.com/rishabhahuja12/careerbot.git
-   cd careerbot
-   ```
-
-2. **Set up environment variables:**
-   Copy `.env.example` to `.env` and fill in your IBM Cloud and watsonx.ai keys.
-
-3. **Configure the agent:**
-   Edit `config/agent_config.json` for prompt, tools, and deployment options.
-
-4. **Run locally or deploy to IBM Cloud Lite.**
-
----
-
-## 📸 Screenshots
-
-| Resources List | Deployed Status | Chatbot Preview | Chatbot Result |
-|:--------------:|:--------------:|:---------------:|:--------------:|
-| ![Resources](screenshots/resources_list.png) | ![Deployed](screenshots/deployed_status.png) | ![Preview](screenshots/chatbot_preview.png) | ![Result](screenshots/chatbot_result.png) |
-
-**To add screenshots:**  
-Upload your PNG files to the `screenshots/` folder via GitHub web or git, using the exact names above.
-
----
-
-## 📚 Documentation
-
-- **[User Guide](docs/user_guide.md):** How students use CareerBot.
-- **[Architecture](docs/architecture.md):** Agent, prompt, and deployment details.
-- **[FAQ](docs/faq.md):** Common questions about the bot and IBM integration.
-
----
-
-## 🎤 Presentation
-
-Final IBM Edunet submission:
+🎤 Final submission for IBM SkillsBuild:
 - [IBM_EduNet_Presentation.pptx](presentation/IBM_EduNet_Presentation.pptx)
 - [IBM_EduNet_Presentation.pdf](presentation/IBM_EduNet_Presentation.pdf)
 
 ---
-## 🧠 Technologies Used
 
-- IBM Watsonx.ai Studio
-- IBM Granite LLM
-- IBM Cloud Object Storage
-- Vector Index (for RAG)
-- Prompt Engineering (system & user prompts)
-- 
+## 🤝 Project Purpose
+
+Built to help students in India:
+- Explore career paths across STEM and non-STEM fields
+- Get suggestions on skills, certifications, and jobs
+- Learn about industry trends (2025–2030)
+- Access all this **without needing to code or install anything**
+
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
+This project is licensed under the **MIT License**.  
+See [LICENSE](LICENSE) for more information.
 
 ---
 
 ## 🙋 Contact
 
-Questions? Reach out at [GitHub Issues](https://github.com/rishabhahuja12/careerbot/issues) or email rishabhahuja961@gmail.com.
+Feel free to connect:
+
+- GitHub Issues: [CareerBot Issues](https://github.com/rishabhahuja12/careerbot/issues)
+- Email: rishabhahuja961@gmail.com
