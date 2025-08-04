@@ -88,8 +88,8 @@ careerbot/
 ## 📊 Project Presentation
 
 🎤 Final submission for IBM SkillsBuild:
-- [IBM_EduNet_Presentation.pptx](presentation/IBM_EduNet_Presentation.pptx)
-- [IBM_EduNet_Presentation.pdf](presentation/IBM_EduNet_Presentation.pdf)
+- [IBM_EduNet_Presentation.pptx](presentation/IBM_Edunet_RishabhAhuja.pptx)
+- [IBM_EduNet_Presentation.pdf](presentation/IBM_Edunet_RishabhAhuja.pdf)
 
 ---
 
