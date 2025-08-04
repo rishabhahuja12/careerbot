@@ -33,7 +33,7 @@ This repository contains **no code**. It documents how the AI agent was created 
 
 | Chat Example | Agent Instructions | Tools Setup | API & Deployment |
 |:------------:|:------------------:|:-----------:|:----------------:|
-| ![Chat](screenshots/chat_example_ai_guidance.png) <br> *CareerBot responding to a real query about AI careers* | ![Instructions](screenshots/agent_instructions_common.png) <br> *Core instruction rules for grounded, helpful responses* | ![Tools](screenshots/tools_configured.png) <br> *Tools like Google, Wikipedia, and Python enabled* | ![API](screenshots/api_reference_ibm.png) <br> *Public/Private endpoints for inferencing and deployment* |
+| ![Chat](screenshots/chat_example_ai_guidance.png) <br> *CareerBot responding to a real query about AI careers* | ![Instructions](screenshots/agent_instructions_common.png) <br> *Core instruction rules for grounded, helpful responses* | ![Tools](screenshots/tools_configured_ibm_studio.png) <br> *Tools like Google, Wikipedia, and Python enabled* | ![API](screenshots/api_reference_ibm.png) <br> *Public/Private endpoints for inferencing and deployment* |
 
 | Persona Setup | Welcome Panel | IBM Cloud Resources |
 |:-------------:|:-------------:|:-------------------:|
