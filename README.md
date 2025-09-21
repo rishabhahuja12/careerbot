@@ -6,19 +6,19 @@ This project was developed as part of the **IBM SkillsBuild for Academia Interns
 
 ---
 
-## 🧩 What This Repository Contains
+## What This Repository Contains
 
-This repository contains **no code**. It documents how the AI agent was created using IBM tools. Inside, you'll find:
+This repository contains a setup Jupyter file that documents how the AI agent was created using IBM tools. Inside, you'll find:
 
-- 🧠 Explanation of the project and technologies used  
-- 🖼️ Screenshots of the AI agent in action  
-- 📝 Key files like agent instructions and learning blocks  
-- 📊 Final project presentation  
-- ✅ Quick start questions used for user onboarding
+- Explanation of the project and technologies used  
+- Screenshots of the AI agent in action  
+- Key files like agent instructions and learning blocks  
+- Final project presentation  
+- Quick start questions used for user onboarding
 
 ---
 
-## 🌟 Key Features & WOW Factors
+## Key Features & WOW Factors
 
 - **Document-Based Q&A:** Trained with real learning documents to give grounded, relevant answers
 - **Granite LLM + Watsonx.ai:** Powered by IBM’s top-tier large language model
@@ -29,7 +29,7 @@ This repository contains **no code**. It documents how the AI agent was created 
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 | Chat Example | Agent Instructions | Tools Setup | API & Deployment |
 |:------------:|:------------------:|:-----------:|:----------------:|
@@ -47,7 +47,7 @@ Other visuals:
 
 ---
 
-## 📑 How It Works
+## How It Works
 
 1. AI Agent is created in **IBM Watsonx.ai Studio**
 2. Custom **instructions and guardrails** are set to limit hallucination
@@ -59,7 +59,7 @@ Other visuals:
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 - IBM Watsonx.ai Studio
 - IBM Granite Foundation Model (LLM)
@@ -70,7 +70,7 @@ Other visuals:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 careerbot/
@@ -85,15 +85,15 @@ careerbot/
 
 ---
 
-## 📊 Project Presentation
+## Project Presentation
 
-🎤 Final submission for IBM SkillsBuild:
+Final submission for IBM SkillsBuild:
 - [IBM_EduNet_Presentation.pptx](presentation/IBM_Edunet_RishabhAhuja.pptx)
 - [IBM_EduNet_Presentation.pdf](presentation/IBM_Edunet_RishabhAhuja.pdf)
 
 ---
 
-## 🤝 Project Purpose
+## Project Purpose
 
 Built to help students in India:
 - Explore career paths across STEM and non-STEM fields
@@ -103,7 +103,7 @@ Built to help students in India:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.  
 See [LICENSE](LICENSE) for more information.
